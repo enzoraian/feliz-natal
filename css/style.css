@@ -1,0 +1,229 @@
+/*****HEADER*****/
+header {
+  width: 100%;
+  height: 8rem;
+  background-color: var(--pink);
+
+  display: flex;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  max-width: 20rem;
+}
+
+header .logo .text {
+  margin-left: 1.2rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--black-light);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .menu-mobile {
+  display: none;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li:not(li:last-child) {
+  margin-right: 5.1rem;
+}
+
+/*****SECTION HERO*****/
+.section-hero {
+  background: var(--pink);
+  padding: 5.2rem 0;
+}
+
+.section-hero .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-hero .container .image {
+  width: 100%;
+  max-width: 60rem;
+}
+
+.section-hero .container .text {
+  width: 100%;
+  max-width: 48.8rem;
+}
+
+.section-hero .container .text h1 {
+  margin-bottom: 2.4rem;
+}
+
+.section-hero .container .text p {
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: var(--gray-200);
+  margin-bottom: 5.2rem;
+}
+
+.section-hero .container .text .container-btn button {
+  color: var(--white);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.4rem;
+  margin-left: 1rem;
+}
+
+.section-hero .image {
+  width: 100%;
+  max-width: 60rem;
+}
+
+/*****SECTION ACESSORIOS*****/
+.section-acessorios {
+  padding: 5.2rem 0;
+}
+
+.section-acessorios .container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+
+.section-acessorios .container .title h2 {
+  text-align: center;
+}
+
+.section-acessorios .container .title p {
+  max-width: 47.7rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: var(--gray-200);
+  text-align: center;
+}
+
+.section-acessorios .container .presentes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-acessorios .container .presentes .presente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-acessorios .container .presentes .presente .icon {
+  width: 100%;
+  max-width: 20rem;
+}
+
+.section-acessorios .container .presentes .presente .text-icon h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.section-acessorios .container .presentes .presente .text-icon p {
+  max-width: 19.8rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: var(--gray-200);
+  text-align: center;
+}
+
+/*****SECTION COMEMORE*****/
+.section-comemore {
+  padding: 5.2rem 0;
+  background-color: var(--pink);
+}
+
+.section-comemore .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-comemore .container .image {
+  width: 100%;
+  max-width: 40rem;
+}
+
+.section-comemore .container .text {
+  width: 100%;
+  max-width: 48.8rem;
+}
+
+.section-comemore .container .text p {
+  margin-top: 2.4rem;
+  margin-bottom: 3.2rem;
+  max-width: 45.7rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: var(--gray-200);
+}
+
+.section-comemore .container .text .container-btn button {
+  color: var(--white);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.4rem;
+  margin-left: 1rem;
+}
+
+/*****FOOTER*****/
+footer {
+  padding: 3.2rem 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .logo {
+  display: flex;
+  align-items: center;
+  max-width: 20rem;
+}
+
+footer .container .logo p {
+  margin-left: 1.2rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--black-light);
+}
+
+footer .container .icons {
+  display: flex;
+}
+
+footer .container .icons .icon {
+  background: var(--pink);
+  padding: 1rem;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer .container .icons .icon:not(icon:last-child) {
+  margin-right: 3rem;
+}

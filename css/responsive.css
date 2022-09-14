@@ -1,0 +1,106 @@
+@media (max-width: 1200px) {
+
+  /*****SECTION HERO*****/
+  .section-hero .container .text {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 991px) {
+
+  /*****SECTION HERO*****/
+  .section-hero .container {
+    flex-direction: column;
+  }
+
+  .section-hero .container .text {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-hero .container .text h1 {
+    text-align: center;
+  }
+
+  .section-hero .container .text p {
+    text-align: center;
+  }
+
+  /*****SECTION COMEMORE*****/
+  .section-comemore .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-comemore .container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-comemore .container .text h3 {
+    text-align: center;
+  }
+
+  .section-comemore .container .text p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /*****HEADER*****/
+  header .container nav {
+    display: none;
+  }
+
+  header .container .menu-mobile {
+    display: block;
+  }
+
+  /*****SECTION HERO*****/
+  .section-hero .container .text {
+    max-width: 80%;
+  }
+
+  /*****SECTION ACESSORIOS*****/
+  .section-acessorios .container .presentes {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+
+  footer .container .logo {
+    display: none;
+  }
+
+  footer .container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  html {
+    font-size: 55%;
+  }
+
+  /*****SECTION HERO*****/
+  .section-hero {
+    padding: 4rem 0;
+  }
+
+  /*****SECTION ACESSORIOS*****/
+  .section-acessorios {
+    padding: 4rem 0;
+  }
+
+  /*****SECTION COMEMORE*****/
+  .section-comemore {
+    padding: 4rem 0;
+  }
+}
