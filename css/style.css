@@ -30,6 +30,15 @@ header .container .menu-mobile {
   display: none;
 }
 
+header .container .menu-mobile .icon-close {
+  display: none;
+}
+
+header .container .menu-mobile img {
+  width: 5rem;
+  height: 5rem;
+}
+
 header nav {
   display: flex;
   align-items: center;

@@ -27,7 +27,7 @@
 <body>
 
   <!--HEADER-->
-  <header>
+  <header class="header">
     <!--CONTAINER MAX-WIDTH 121.6REM-->
     <div class="container">
 
@@ -40,15 +40,18 @@
       <!--MENU-->
       <nav>
         <ul>
-          <li><a class="menu-item" href="#">Início</a></li>
-          <li><a class="menu-item" href="#">Acessórios</a></li>
-          <li><a class="menu-item" href="#">Doação</a></li>
-          <li><a class="menu-item" href="#">Contato</a></li>
+          <li><a class="menu-item" href="index.html">Início</a></li>
+          <li><a class="menu-item js-acessorios" href="#section-acessorios">Acessórios</a></li>
+          <li><a class="menu-item js-comemore" href="#section-comemore">Doação</a></li>
+          <li><a class="menu-item js-contato" href="#">Contato</a></li>
         </ul>
       </nav>
 
       <!--BTN MENU-MOBILE-->
-      <button class="menu-mobile">Menu-mobile</button>
+      <button class="menu-mobile">
+        <img class="icon-open" src="img/menu-open.svg" alt="">
+        <img class="icon-close" src="img/menu-close.svg" alt="">
+      </button>
     </div>
   </header>
 
@@ -77,7 +80,7 @@
   </section>
 
   <!--SECTION ACESSORIOS-->
-  <section class="section-acessorios">
+  <section class="section-acessorios" id="section-acessorios">
     <!--CONTAINER MAX-WIDTH 121.6REM-->
     <div class="container">
 
@@ -129,7 +132,7 @@
   </section>
 
   <!--SECTION COMEMORE-->
-  <section class="section-comemore">
+  <section class="section-comemore" id="section-comemore">
     <!--CONTAINER MAX-WIDTH 121.6REM-->
     <div class="container">
 
@@ -181,5 +184,7 @@
     </div>
   </footer>
 </body>
+
+<script src="js/script.js"></script>
 
 </html>
